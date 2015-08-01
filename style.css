@@ -10,10 +10,23 @@ body {
 }
 
 #abouttitle #ray h2 {
-  padding-top: 35%;
-  padding-bottom: 5%;
+  position: absolute;
   font-size: 450%;
   font-family: 'Shadows Into Light', cursive;
+  right: 43%;
+  margin-top: 13%;
+}
+
+#abouttitle #ray {
+  height: 5%;
+  width: 3%;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+  border-bottom: 300px solid grey;
+  margin-left: 34%;
+  padding-top: 15%;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 3s infinite;
 }
 
 #abouttitle {
@@ -56,25 +69,16 @@ img.desaturate {
   height: 350%;
 }
 
-#skills {
-  position: relative;
-  background-color: #999999;
-  width: 50%;
-  float: left;
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0%   {opacity: 0.3;}
+    50%  {opacity: 0.6;}
+    100% {opacity: 0.3;}
 }
 
-#education {
-  position: relative;
-  background-color: #ADADAD;
-  width: 50%;
-  float: left;
-}
-
-#projects {
-  background-color: #E6E6E6;
-  clear: left;
-}
-
-#interests {
-  background-color: #787878;
+/* Standard syntax */
+@keyframes mymove {
+    0%   {opacity: 0.3;}
+    50%  {opacity: 0.6;}
+    100% {opacity: 0.3;}
 }
