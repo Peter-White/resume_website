@@ -1,3 +1,80 @@
-img {
-  min-width: 100%;
+body {
+  background-color: black;
+}
+
+#intro {
+  background-image: url('images/twilight-1024x454.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+
+#abouttitle #ray h2 {
+  padding-top: 35%;
+  padding-bottom: 5%;
+  font-size: 450%;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#abouttitle {
+  background-image: url('images/ufo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#intro h1 {
+  font-family: 'Fontdiner Swanky', cursive;
+  color: white;
+  font-size: 500%;
+  margin-top: 5%;
+}
+
+#intro p {
+  color: white;
+  font-size: 150%;
+  font-family: 'Righteous', cursive;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+}
+
+#intro img {
+  max-width: 30%;
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+img.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#about {
+  background-color: lightgrey;
+  height: 350%;
+}
+
+#skills {
+  position: relative;
+  background-color: #999999;
+  width: 50%;
+  float: left;
+}
+
+#education {
+  position: relative;
+  background-color: #ADADAD;
+  width: 50%;
+  float: left;
+}
+
+#projects {
+  background-color: #E6E6E6;
+  clear: left;
+}
+
+#interests {
+  background-color: #787878;
 }
