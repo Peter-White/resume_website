@@ -120,12 +120,12 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #00FF00;
+    color: #757575;
 }
 
 /* mouse over link */
 a:hover {
-    color: #A1A1A1
+    color: #A1A1A1;
 }
 
 /* selected link */
@@ -140,11 +140,12 @@ a:active {
   padding-bottom: 2%;
 }
 
-#contact #email {
+#contact #email, #resume {
   font-size: 200%;
+  font-family: 'Lobster', cursive;
 }
 
-#projects #fox {
+#projects #fox, #games {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   cursor: pointer;
